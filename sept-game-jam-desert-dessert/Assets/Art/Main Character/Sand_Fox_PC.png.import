@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://crd1sgd5d4v5x"
-path="res://.godot/imported/Tile_2_1.png-e5c6a40eea9d41ffde40d40e6f6e26e5.ctex"
+uid="uid://cfyq6qvuv3d0a"
+path="res://.godot/imported/Sand_Fox_PC.png-3ae5cb4f1a38f92a68ccccc32efa509a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Art/Desert Tilemap/Tile_2_1.png"
-dest_files=["res://.godot/imported/Tile_2_1.png-e5c6a40eea9d41ffde40d40e6f6e26e5.ctex"]
+source_file="res://Assets/Art/Main Character/Sand_Fox_PC.png"
+dest_files=["res://.godot/imported/Sand_Fox_PC.png-3ae5cb4f1a38f92a68ccccc32efa509a.ctex"]
 
 [params]
 

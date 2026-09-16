@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dwxfq2omlm6ih"
-path="res://.godot/imported/Tile_3_1.png-14200628c5c8c08a7ec03da14817b4ac.ctex"
+uid="uid://bhn3wghn11ni2"
+path="res://.godot/imported/Desert_Floor_Tileset.png-51a3f9b2f862c61871d6fb98797a8aa4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Art/Desert Tilemap/Tile_3_1.png"
-dest_files=["res://.godot/imported/Tile_3_1.png-14200628c5c8c08a7ec03da14817b4ac.ctex"]
+source_file="res://Assets/Art/Desert Tilemap/Desert Floor/Desert_Floor_Tileset.png"
+dest_files=["res://.godot/imported/Desert_Floor_Tileset.png-51a3f9b2f862c61871d6fb98797a8aa4.ctex"]
 
 [params]
 

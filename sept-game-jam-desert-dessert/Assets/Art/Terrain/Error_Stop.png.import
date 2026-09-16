@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d13em6egoide1"
-path="res://.godot/imported/Tile_0_1.png-c6b13359dea53f7d76b64892beeba8e1.ctex"
+uid="uid://c0qmhnd10gftf"
+path="res://.godot/imported/Error_Stop.png-9cdfdeba8587309b2372a1054b7a8fb6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Art/Desert Tilemap/Tile_0_1.png"
-dest_files=["res://.godot/imported/Tile_0_1.png-c6b13359dea53f7d76b64892beeba8e1.ctex"]
+source_file="res://Assets/Art/Terrain/Error_Stop.png"
+dest_files=["res://.godot/imported/Error_Stop.png-9cdfdeba8587309b2372a1054b7a8fb6.ctex"]
 
 [params]
 

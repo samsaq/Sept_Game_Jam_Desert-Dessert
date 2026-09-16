@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://bgfb2j7huog0m"]
+
+[ext_resource type="Script" uid="uid://bd01stcy48h88" path="res://Src/Gameplay/Player/player.gd" id="1_nr86n"]
+[ext_resource type="Script" uid="uid://dm14wc5ljlbhe" path="res://Src/Gameplay/Player/player_body.gd" id="2_j7gcw"]
+[ext_resource type="Texture2D" uid="uid://cfyq6qvuv3d0a" path="res://Assets/Art/Main Character/Sand_Fox_PC.png" id="2_nr86n"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_t3rrj"]
+
+[node name="PlayerRoot" type="Node2D" unique_id=264292569]
+z_index = 9
+script = ExtResource("1_nr86n")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1858508745]
+script = ExtResource("2_j7gcw")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=668848969]
+texture = ExtResource("2_nr86n")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=2024225481]
+scale = Vector2(0.8, 0.8)
+shape = SubResource("CapsuleShape2D_t3rrj")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=882929660]
+zoom = Vector2(2, 2)
+position_smoothing_enabled = true
+rotation_smoothing_enabled = true

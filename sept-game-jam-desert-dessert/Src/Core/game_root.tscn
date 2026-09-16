@@ -1,7 +1,11 @@
 [gd_scene format=3 uid="uid://wuuukmac8bvr"]
 
+[ext_resource type="Script" uid="uid://lstyanp3kfyg" path="res://Src/Core/game_root.gd" id="1_7hua7"]
+[ext_resource type="PackedScene" uid="uid://ch6tonsauosp" path="res://Src/Debug/debug_text_overlay.tscn" id="2_fksxk"]
+
 [node name="GameRoot" type="Node" unique_id=41925977]
 process_mode = 3
+script = ExtResource("1_7hua7")
 
 [node name="Systems" type="Node" parent="." unique_id=1413181949]
 
@@ -16,36 +20,47 @@ process_mode = 1
 
 [node name="HudLayer" type="CanvasLayer" parent="." unique_id=997873566]
 process_mode = 1
+layer = 10
 
 [node name="HudRoot" type="Control" parent="HudLayer" unique_id=819796136]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+mouse_filter = 2
 
 [node name="PauseLayer" type="CanvasLayer" parent="." unique_id=712238544]
 process_mode = 2
+layer = 20
 
 [node name="PauseRoot" type="Control" parent="PauseLayer" unique_id=1051299681]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+mouse_filter = 2
 
 [node name="TransitionLayer" type="CanvasLayer" parent="." unique_id=974901168]
 process_mode = 3
+layer = 100
 
 [node name="TransitionRoot" type="Control" parent="TransitionLayer" unique_id=1113725129]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+mouse_filter = 2
 
 [node name="DebugRoot" type="CanvasLayer" parent="." unique_id=603281218]
 process_mode = 3
+layer = 150
 
 [node name="DebugRoot" type="Control" parent="DebugRoot" unique_id=699159135]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+mouse_filter = 2
+
+[node name="DebugTextOverlay" parent="DebugRoot/DebugRoot" unique_id=758326494 instance=ExtResource("2_fksxk")]
+layout_mode = 1

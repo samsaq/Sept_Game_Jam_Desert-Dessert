@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bn3gjioal6x0i"]
+
+[ext_resource type="Script" uid="uid://bsvsqxd7iwi14" path="res://Src/Gameplay/Player/player_spawn.gd" id="1_doq2v"]
+[ext_resource type="Texture2D" uid="uid://b737jye52abtu" path="res://Assets/Art/Terrain/Crystal_Player_Spawn_Spot.png" id="2_8tv6d"]
+
+[node name="Player Spawn" type="Node2D" unique_id=230022388]
+script = ExtResource("1_doq2v")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1540051376]
+texture = ExtResource("2_8tv6d")
